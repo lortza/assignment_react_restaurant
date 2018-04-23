@@ -1,28 +1,32 @@
+:root {
+  --brand-color: #e3f2fd;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.navbar-light {
+  background-color: var(--brand-color);
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.section-header {
+  margin-top: 30px;
+  border-top: 1px solid var(--brand-color);
+  font-size: 60px;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+  color: var(--brand-color);
 }
 
-.App-title {
-  font-size: 1.5em;
+#menu {
 }
 
-.App-intro {
-  font-size: large;
+#menu .card {
+  margin-bottom: 10px;
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.price {
+  color: gray;
+  margin-left: 10px;
+  font-size: 50%;
 }
